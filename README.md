@@ -27,10 +27,10 @@ Ikuti langkah-langkah di bawah ini untuk mengompilasi dan menjalankan aplikasi s
     Output harus menampilkan versi JDK yang terinstal (misalnya, `openjdk version "11.0.12"`).
 
 2.  **Kloning Repositori:**
-    Unduh kode sumber proyek ini ke mesin lokal Anda dengan mengkloning repositori Git. Ganti `https://github.com/namauser/nama-repositori-anda.git` dengan URL repositori aktual Anda, dan `nama-repositori-anda` dengan nama folder proyek yang Anda inginkan.
+    Unduh kode sumber proyek ini ke mesin lokal Anda dengan mengkloning repositori Git. Ganti `https://github.com/alannuarii/PA1.git` dengan URL repositori aktual Anda, dan `PA1` dengan nama folder proyek yang Anda inginkan.
     ```bash
-    git clone https://github.com/namauser/nama-repositori-anda.git
-    cd nama-repositori-anda
+    git clone https://github.com/alannuarii/PA1.git
+    cd PA1
     ```
 
 3.  **Kompilasi Seluruh File Java:**
