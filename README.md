@@ -12,23 +12,40 @@ Proyek ini adalah sistem manajemen inventaris berbasis konsol yang memungkinkan 
 - Memperbarui stok item secara langsung
 
 ## Teknologi yang Digunakan
-- Bahasa Pemrograman: Java
-- JDK yang direkomendasikan: JDK 21 atau versi yang lebih baru
-
-## Struktur Proyek
-- `Main.java` : Berisi logika utama aplikasi dan menu interaktif untuk berinteraksi dengan inventaris.
-- `Inventaris.java` : Kelas pengelola daftar barang dan operasi CRUD (Create, Read, Update, Delete).
-- `Barang.java` : Kelas dasar (superclass) untuk semua jenis barang.
-- `BarangElektronik.java` : Subkelas untuk barang elektronik dengan atribut garansi.
-- `BarangTulisan.java` : Subkelas untuk barang alat tulis dengan jenis alat tulis.
-- `FormatUtil.java` : Utilitas untuk pemformatan harga menjadi rupiah.
+Proyek ini dikembangkan menggunakan bahasa pemrograman Java. Untuk memastikan kompatibilitas dan kinerja optimal, disarankan untuk menggunakan **Java Development Kit (JDK) versi 11 atau yang lebih baru**. JDK menyediakan semua *tool* yang diperlukan untuk mengompilasi dan menjalankan aplikasi Java ini, termasuk *Java compiler* (`javac`) dan *Java Virtual Machine* (`java`).
 
 ## Cara Menjalankan Proyek
-1. Pastikan sudah menginstal Java Development Kit (JDK) di sistem.
-2. Clone repositori ini:
-   ```bash
-   git clone https://github.com/alannuarii/PA1
-   cd PA1
-3. javac *.java
-4. java Main
+Ikuti langkah-langkah di bawah ini untuk mengompilasi dan menjalankan aplikasi sistem manajemen inventaris ini di lingkungan lokal Anda.
 
+1.  **Pastikan JDK Terinstal:**
+    Sebelum memulai, pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari situs web resmi Oracle atau menggunakan *package manager* yang sesuai dengan sistem operasi Anda.
+    Untuk memverifikasi instalasi JDK, buka *terminal* atau *command prompt* dan jalankan perintah berikut:
+    ```bash
+    java -version
+    javac -version
+    ```
+    Output harus menampilkan versi JDK yang terinstal (misalnya, `openjdk version "11.0.12"`).
+
+2.  **Kloning Repositori:**
+    Unduh kode sumber proyek ini ke mesin lokal Anda dengan mengkloning repositori Git. Ganti `https://github.com/namauser/nama-repositori-anda.git` dengan URL repositori aktual Anda, dan `nama-repositori-anda` dengan nama folder proyek yang Anda inginkan.
+    ```bash
+    git clone https://github.com/namauser/nama-repositori-anda.git
+    cd nama-repositori-anda
+    ```
+
+3.  **Kompilasi Seluruh File Java:**
+    Setelah masuk ke direktori proyek, gunakan *Java compiler* (`javac`) untuk mengompilasi semua file `.java` menjadi file `.class` (bytecode yang dapat dieksekusi oleh JVM). Perintah ini akan mengompilasi semua file Java yang ada di direktori saat ini.
+    ```bash
+    javac *.java
+    ```
+    Jika ada *error* saat kompilasi, pastikan semua file `.java` berada di direktori yang sama atau sesuaikan *classpath* (`-cp`) jika Anda menggunakan struktur folder yang lebih kompleks.
+
+4.  **Jalankan Aplikasi:**
+    Setelah kompilasi berhasil, Anda dapat menjalankan aplikasi utama menggunakan *Java Virtual Machine* (`java`). Aplikasi akan dimulai di konsol, menampilkan menu interaktif.
+    ```bash
+    java Main
+    ```
+    Anda sekarang dapat berinteraksi dengan sistem manajemen inventaris melalui menu yang disediakan di *terminal* atau *command prompt* Anda.
+
+## Kontak
+Untuk pertanyaan lebih lanjut, saran, atau diskusi terkait proyek ini, jangan ragu untuk menghubungi: [alan.pln50@gmail.com]
